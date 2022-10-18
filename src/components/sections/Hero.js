@@ -61,19 +61,19 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              Landing template for <span className="text-color-primary">startups</span>
+              Hello Everyone <span className="text-color-primary">Kumar Sonal</span> here.
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+                Here are the link for my YouTube Channels. Please do checkout my latest video.
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                    Get started
+                  <Button tag="a" color="primary" wideMobile href="https://www.youtube.com/channel/UChkjQYed9MOWeRcvBW9PFog/featured">
+                  Thoughts of soNal
                     </Button>
-                  <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
-                    View on Github
+                  <Button tag="a" color="dark" wideMobile href="https://www.youtube.com/channel/UC6fLVm24L350gc7KjtofUXg">
+                    Shwad
                     </Button>
                 </ButtonGroup>
               </div>
@@ -81,14 +81,14 @@ const Hero = ({
           </div>
           <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
             <a
-              data-video="https://player.vimeo.com/video/174002812"
+              data-video="https://youtu.be/_LowyXe9-k0"
               href="#0"
               aria-controls="video-modal"
               onClick={openModal}
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
+                src={require('./../../assets/images/abc.jpg')}
                 alt="Hero"
                 width={896}
                 height={504} />
@@ -98,7 +98,7 @@ const Hero = ({
             id="video-modal"
             show={videoModalActive}
             handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
+            video="https://www.youtube.com/embed/_LowyXe9-k0"
             videoTag="iframe" />
         </div>
       </div>
